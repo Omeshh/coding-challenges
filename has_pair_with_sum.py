@@ -26,7 +26,7 @@ i = 0
 c = set()
 while i < len(l):
     v = r - l[i]
-    if v in c:
+    if l[i] in c:
         print('Yes')
         break
     else:
